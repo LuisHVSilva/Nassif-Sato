@@ -1,3 +1,8 @@
+/*
+VER IPAD AIR RESPONSIVIDADE
+
+*/
+
 *,
 body {
     margin: 0;
@@ -16,6 +21,15 @@ body {
     --terciaria0: #000000;
     --terciaria1: #000000;
     --background-color: #EBEBED;
+}
+
+p.big-title {
+    margin-bottom: 0;
+    padding-top: 40px;
+
+    color: var(--secundaria0);
+    font-weight: 700;    
+    text-decoration: underline 1.5px var(--secundaria0);    
 }
 
 /* Header */
@@ -43,32 +57,72 @@ header nav a img {
     background-color: var(--background-color);
 }
 
-.services .title {
+.services .title p.sub-title {
     color: var(--secundaria0);
     font-weight: 700;
-    line-height: 130%;
 }
 
-.icon{
+.icon {
     margin-top: 50px;
     padding-bottom: 50px;
 }
 
-.icon-img{
+.icon-img {
     margin-right: 5%;
-}  
-.icon-text{
+}
+
+.icon-text {
     color: var(--primaria0);
     font-weight: 700;
 }
 
-@media(max-width: 425px){
-    .icon-text{
-        font-size: 12px !important;
-    }
-}
 
 /*Team*/
 .team {
     background-color: var(--background-color);
+}
+
+.team .title{
+    padding-bottom: 50px;
+    
+}
+
+.team aside {
+    padding-bottom: 50px;
+}
+
+.team aside img{
+    margin-right: 30px;
+
+}
+
+.team aside article p.lawyer{
+    padding-bottom: 30px;
+
+    color: var(--primaria0);
+    font-weight: 600;
+}
+
+@media(max-width: 425px) {
+    .icon-img {
+        display: block;
+        width: auto;
+        margin: auto;
+    }
+
+    .icon-text {
+        font-size: 13px !important;
+        text-align: center;
+    }
+
+    .team aside img{
+        display: block;
+        width: auto;
+        margin: auto;        
+        margin-bottom: 20px;
+    }
+
+    .team aside article p.lawyer{
+        padding-bottom: 10px;
+    }
 }
