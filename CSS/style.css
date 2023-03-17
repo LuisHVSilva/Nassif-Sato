@@ -14,9 +14,9 @@ body {
     --primaria-1: #DED947;
     --primaria0: #C5AE5B;
     --primaria1: #D4A344;
-    --secundaria1: #405D78;
+    --secundaria-1: #405D78;
     --secundaria0: #152C3C;
-    --primaria1: #243545;
+    --secundaria1: #243545;
     --terciaria-1: #1A1A1A;
     --terciaria0: #000000;
     --terciaria1: #000000;
@@ -30,6 +30,10 @@ p.big-title {
     color: var(--secundaria0);
     font-weight: 700;    
     text-decoration: underline 1.5px var(--secundaria0);    
+}
+
+main{
+    background-color: var(--background-color);
 }
 
 /* Header */
@@ -53,9 +57,6 @@ header nav a img {
 }
 
 /*Services*/
-.services {
-    background-color: var(--background-color);
-}
 
 .services .title p.sub-title {
     color: var(--secundaria0);
@@ -78,9 +79,6 @@ header nav a img {
 
 
 /*Team*/
-.team {
-    background-color: var(--background-color);
-}
 
 .team .title{
     padding-bottom: 50px;
@@ -101,6 +99,151 @@ header nav a img {
 
     color: var(--primaria0);
     font-weight: 600;
+}
+
+/*Depoimentos*/
+.depoimentos{    
+    padding-top: 50px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.card{
+    width: 400px;
+    height: 120px;
+    margin-bottom:  20px;
+}
+
+small {
+    font-size: 60%;
+    color: var(--secundaria1);
+}
+
+.card-text {
+    color: var(--primaria0);
+    font-size: 70%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2%;
+}
+
+.card-title{
+    color: var(--primaria0);
+    font-size: 70%;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.balanca-text {
+    padding-top: 5%;
+    margin: 0;
+    color: var(--secundaria1);
+    font-size: 80%;
+}
+
+/*Contact*/
+.contact {
+    background-color: var(--secundaria0);
+    padding-top: 30px;
+}
+
+.contact .top {
+    padding-bottom: 20px;
+    padding-bottom: 4%;
+}
+
+.contact .top .title {
+    color: white;
+    font-weight: 700;    
+    padding-bottom: 2%;
+}
+
+.contact .top .telephone span {
+    color: var(--primaria0);
+}
+
+.contact .top p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.contact .top small{
+    margin: 0;
+    padding: 0;
+
+    font-size: 12px;
+    color: white;    
+}
+
+.contact .timetable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+
+.contact .timetable .day{
+    border: 1px solid var(--primaria0);
+    background-color: var(--secundaria-1);
+    padding: 1%;
+    margin-left: 5%;
+}
+
+.contact .timetable .day p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 600;
+}
+
+.contact .timetable .day .time {
+    font-size: 80%;
+}
+
+
+.contact .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.contact .icons a{
+    margin-left: 3%;
+}
+
+
+/*Footer*/
+footer{
+    background-color: var(--secundaria-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer .links {
+    margin-right: 10%;
+}
+
+footer .links ul li{
+    list-style: none;
+}
+
+footer .links ul li a{
+    color: var(--primaria1);    
+    text-decoration: none;
+}
+
+footer .links ul li a:hover{
+    color: white;
+}
+
+footer iframe{
+    width: 100%;
 }
 
 @media(max-width: 425px) {
@@ -124,5 +267,21 @@ header nav a img {
 
     .team aside article p.lawyer{
         padding-bottom: 10px;
+    }
+
+    .balanca-text, small {
+        display: none;
+    }
+
+    .balanca {
+        padding-bottom: 20px;
+    }
+
+    .card{
+        width: 100%;        
+    }
+
+    .card-text{
+        padding: 0;
     }
 }
