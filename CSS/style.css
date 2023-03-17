@@ -29,7 +29,7 @@ p.big-title {
 
     color: var(--secundaria0);
     font-weight: 700;    
-    text-decoration: underline 1.5px var(--secundaria0);    
+       
 }
 
 main{
@@ -58,7 +58,7 @@ header nav a img {
 
 /*Services*/
 
-.services .title p.sub-title {
+#services .title p.sub-title {
     color: var(--secundaria0);
     font-weight: 700;
 }
@@ -72,7 +72,7 @@ header nav a img {
     margin-right: 5%;
 }
 
-.icon-text {
+#services .icon-text {
     color: var(--primaria0);
     font-weight: 700;
 }
@@ -80,29 +80,29 @@ header nav a img {
 
 /*Team*/
 
-.team .title{
+#team .title{
     padding-bottom: 50px;
     
 }
 
-.team aside {
+#team aside {
     padding-bottom: 50px;
 }
 
-.team aside img{
+#team aside img{
     margin-right: 30px;
 
 }
 
-.team aside article p.lawyer{
+#team aside article p.lawyer{
     padding-bottom: 30px;
 
     color: var(--primaria0);
     font-weight: 600;
 }
 
-/*Depoimentos*/
-.depoimentos{    
+/*testimony*/
+#testimony{    
     padding-top: 50px;
     width: 100%;
     padding-bottom: 50px;
@@ -143,33 +143,33 @@ small {
 }
 
 /*Contact*/
-.contact {
+#contact {
     background-color: var(--secundaria0);
     padding-top: 30px;
 }
 
-.contact .top {
+#contact .top {
     padding-bottom: 20px;
     padding-bottom: 4%;
 }
 
-.contact .top .title {
+#contact .top .title {
     color: white;
     font-weight: 700;    
     padding-bottom: 2%;
 }
 
-.contact .top .telephone span {
+#contact .top .telephone span {
     color: var(--primaria0);
 }
 
-.contact .top p{
+#contact .top p{
     margin: 0;
     padding: 0;
     color: white;
 }
 
-.contact .top small{
+#contact .top small{
     margin: 0;
     padding: 0;
 
@@ -177,7 +177,7 @@ small {
     color: white;    
 }
 
-.contact .timetable{
+#contact .timetable{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,33 +185,33 @@ small {
 }
 
 
-.contact .timetable .day{
+#contact .timetable .day{
     border: 1px solid var(--primaria0);
     background-color: var(--secundaria-1);
     padding: 1%;
     margin-left: 5%;
 }
 
-.contact .timetable .day p{
+#contact .timetable .day p{
     margin: 0;
     padding: 0;
     color: white;
     font-weight: 600;
 }
 
-.contact .timetable .day .time {
+#contact .timetable .day .time {
     font-size: 80%;
 }
 
 
-.contact .icons{
+#contact .icons{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 3%;
 }
 
-.contact .icons a{
+#contact .icons a{
     margin-left: 3%;
 }
 
@@ -258,14 +258,14 @@ footer iframe{
         text-align: center;
     }
 
-    .team aside img{
+    #team aside img{
         display: block;
         width: auto;
         margin: auto;        
         margin-bottom: 20px;
     }
 
-    .team aside article p.lawyer{
+    #team aside article p.lawyer{
         padding-bottom: 10px;
     }
 
