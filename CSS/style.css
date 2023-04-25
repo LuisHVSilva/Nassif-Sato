@@ -103,11 +103,13 @@ header nav a img {
 
 #quemSomos article p {
     color: var(--secundaria0);
+    text-align: justify;
 }
 
 #quemSomos article p.citacao {
     color: var(--primaria1);
     font-size: 70%;
+    text-align: justify;
 }
 
 /*Services*/
