@@ -8,7 +8,7 @@ function mobile() {
     bannerImage.setAttribute("src", 'images/Banner-celular.svg')
 }
 
-if (window.screen.width > 450) {
+if (window.screen.width > 550) {
     desktop()
 } else {
     mobile()
