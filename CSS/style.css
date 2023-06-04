@@ -157,6 +157,10 @@ header nav a img {
     font-weight: 600;
 }
 
+#team aside article p {
+    text-align: justify;
+}
+
 #team aside article div.team-icon {
     display: flex;
     justify-content: start;
